@@ -3,6 +3,10 @@
  This tutorial was developed using Eclipse IDE. <br />
  In order to run Python in Eclipse, go to Help -> Install new Software ... -> and use: 'Pydev p2 Repository - http://pydev.sf.net/updates/'
  
+ This tutorial was developed using Python 3.6.1   <br />
+ To Download Python: <br />
+ https://www.python.org/downloads/
+ 
  -------------------------------------------------------------------------------------------------------------------
  
 What is going on everyone, welcome to a Data Analysis with Python and Pandas tutorial series. 

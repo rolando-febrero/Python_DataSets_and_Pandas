@@ -3,7 +3,7 @@
  This tutorial was developed using Eclipse IDE. 
  In order to run Python in Eclipse, go to Help -> Install new Software ... -> and use: 'Pydev p2 Repository - http://pydev.sf.net/updates/'
  
- #------------------------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------------------
  
 What is going on everyone, welcome to a Data Analysis with Python and Pandas tutorial series. 
 Pandas is a Python module, and Python is the programming language that we're going to use. 

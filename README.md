@@ -1,6 +1,6 @@
 ﻿# Python_DataSets_and_Pandas
  
- This tutorial was developed using Eclipse IDE. 
+ This tutorial was developed using Eclipse IDE. <br />
  In order to run Python in Eclipse, go to Help -> Install new Software ... -> and use: 'Pydev p2 Repository - http://pydev.sf.net/updates/'
  
  -------------------------------------------------------------------------------------------------------------------

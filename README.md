@@ -10,7 +10,12 @@
  Installing packages (Pandas) <br />
  Next, go to your terminal or cmd.exe, and type:pip install pandas. Did you get a "pip is not a recognized command" or something similar? No problem, this means pip is not on your PATH. Pip is a program, but your machine doesn't just simply know where it is unless it is on your PATH. You can look up how to add something to your path if you like, but you can always just explicitly give the path to the program you want to execute. On Windows, for example, Python's pip is located in C:/Python34/Scripts/pip. Python34 means Python 3.4. If you have Python 3.6, then you would use Python36, and so on.
 
-Thus, if regular pip install pandas didn't work, then you can do C:/Python34/Scripts/pip install pandas
+Thus, if regular pip install pandas didn't work, then you can do <br />
+C:/Python34/Scripts/pip install pandas <br /><br />
+
+Matplotlib library:<br />
+C:/Python34/Scripts/pip install matplotlib
+
  
  -------------------------------------------------------------------------------------------------------------------
  

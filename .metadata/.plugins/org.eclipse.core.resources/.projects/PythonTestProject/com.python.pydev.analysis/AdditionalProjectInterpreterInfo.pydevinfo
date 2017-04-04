@@ -1,0 +1,29 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\EclipseWorkspace\PYTHON_PROJECTS\test\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonTestProject\com.python.pydev.analysis\v2_indexcache
+src_1.B_Matplotlib_example|1491315960456257000|D:\EclipseWorkspace\PYTHON_PROJECTS\test\PythonTestProject\src_1\B_Matplotlib_example.py
+src_2.C_Data_Analysis|1491321131727096000|D:\EclipseWorkspace\PYTHON_PROJECTS\test\PythonTestProject\src_2\C_Data_Analysis.py
+src_3.D_DataSet_from_CSV|1491323157093096000|D:\EclipseWorkspace\PYTHON_PROJECTS\test\PythonTestProject\src_3\D_DataSet_from_CSV.py
+src_1.A_pandas_datareader_example|1491313929120701000|D:\EclipseWorkspace\PYTHON_PROJECTS\test\PythonTestProject\src_1\A_pandas_datareader_example.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+1=src_1.B_Matplotlib_example
+3=src_2.C_Data_Analysis
+4=src_3.D_DataSet_from_CSV
+2=src_1.A_pandas_datareader_example
+-- END DICTIONARY
+-- START TREE 1
+8
+beg|0|
+dat|2|data1!11@data1!19@
+df|2|df!27@df!35@
+end|2|end!19@end!11@
+sta|2|start!11@start!19@
+tex|2|text!35@text!27@
+tic|2|ticker!11@ticker!19@
+web|1|web_stats!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,17 @@
+import pandas as pd
+
+print(' --> Loading in a CSV to a dataframe can be as simple as:\n')
+df = pd.read_csv('ZILL-Z77006_3B.csv')
+print(df.head())
+print('\n')
+
+print('------------------------------------\n')
+
+text = '''     Darn, our index is gone again! This is because CSV has 
+    no "index" attribute like our dataframe does. What we can do,    
+    is set the index on import, rather than importing and then setting the index. 
+    Something like:  df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0) '''
+
+print(text)
+df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0)
+print(df.head())

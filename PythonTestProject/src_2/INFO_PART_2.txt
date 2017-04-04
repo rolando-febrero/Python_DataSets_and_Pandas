@@ -1,0 +1,4 @@
+In this Data analysis with Python and Pandas tutorial, 
+we're going to clear some of the Pandas basics. Data prior to 
+being loaded into a Pandas Dataframe can take multiple forms, 
+but generally it needs to be a dataset that can form to rows and columns. 

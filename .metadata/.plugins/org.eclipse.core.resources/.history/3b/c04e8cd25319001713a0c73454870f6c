@@ -1,0 +1,33 @@
+import pandas as pd
+
+print(' --> Loading in a CSV to a dataframe can be as simple as:\n')
+df = pd.read_csv('ZILL-Z77006_3B.csv')
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = '''Darn, our index is gone again! This is because CSV has 
+no "index" attribute like our dataframe does. What we can do,    
+is set the index on import, rather than importing and then setting the index. 
+Something like:  df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0) \n'''
+
+print(text)
+df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0)
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = ''' Now, I do not know about you, but the name "value" is fairly worthless.
+ Can we change this? Sure, there are many ways to change the column names, 
+ one way is: df.columns = ['House_Prices']
+                print(df.head())  \n'''
+            
+print(text)
+
+df.columns = ['House_Prices']
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')

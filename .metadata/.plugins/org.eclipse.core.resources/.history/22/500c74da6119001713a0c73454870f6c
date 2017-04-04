@@ -1,0 +1,86 @@
+import pandas as pd
+
+print(' --> Loading in a CSV to a dataframe can be as simple as:\n')
+df = pd.read_csv('ZILL-Z77006_3B.csv')
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = '''Darn, our index is gone again! This is because CSV has 
+no "index" attribute like our dataframe does. What we can do,    
+is set the index on import, rather than importing and then setting the index. 
+Something like:  df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0) \n'''
+
+print(text)
+df = pd.read_csv('ZILL-Z77006_3B.csv', index_col=0)
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = ''' Now, I do not know about you, but the name "value" is fairly worthless.
+ Can we change this? Sure, there are many ways to change the column names, 
+ one way is: df.columns = ['House_Prices']
+                print(df.head())  \n'''
+            
+print(text)
+
+df.columns = ['House_Prices']
+print(df.head())
+print('\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = 'Next, we can try to save to csv like so: df.to_csv(newcsv3.csv) \n'
+print(text)
+df.to_csv('newcsv3.csv')
+
+print('--------------------------------------------------------------------------\n')
+
+text = '''One interesting thing is the use of Pandas for conversion. So, maybe you are 
+inputting data from a CSV, but you'd really like to display that data to HTML on your website. 
+Since HTML is one of the datatypes, 
+we can just export to HTML, like so: df.to_html('example.html') \n'''
+
+print(text)
+
+df.to_html('example.html')
+
+print('Now we have an HTML file. Open it up, and boom you have a table in HTML.\n')
+
+print('--------------------------------------------------------------------------\n')
+
+text = ''' I particularly like to use Pandas when I have an SQL dump of data. I tend to 
+pour the database data right into a Pandas dataframe, perform the operations that I want 
+to perform, then I display the data in a graph maybe, or I otherwise serve the data in some way.
+
+Finally, what if we want to actually rename just one of the columns? Earlier, you were shown 
+how to name all columns, but maybe you just want to change one without having to type all the 
+others out. Easy enough: 
+
+df = pd.read_csv('newcsv4.csv', names = ['Date','House_Price'])
+print(df.head())
+
+df.rename(columns={'House_Price':'Prices'}, inplace=True)
+print(df.head())
+
+'''
+
+print(text)
+df = pd.read_csv('newcsv4.csv', names = ['Date','House_Price'])
+print(df.head())
+
+
+
+
+
+
+
+
+
+
+
+
+
+

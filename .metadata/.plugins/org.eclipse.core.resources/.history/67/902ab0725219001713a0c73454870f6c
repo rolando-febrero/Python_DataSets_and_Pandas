@@ -1,0 +1,9 @@
+import pandas as pd
+
+print(' --> Loading in a CSV to a dataframe can be as simple as:\n')
+df = pd.read_csv('ZILL-Z77006_3B.csv')
+print(df.head())
+print('\n')
+
+df = pd.read_csv('newcsv2.csv', index_col=0)
+print(df.head())

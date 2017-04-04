@@ -1,0 +1,4 @@
+''' Pandas works great with other modules, Matplotlib being one of them. ''' 
+''' Let's see! Open your terminal or cmd.exe, and do pip install matplotlib. ''' 
+''' You should already have got it I am prety sure with your pandas installation, ''' 
+''' but we want to make sure. '''

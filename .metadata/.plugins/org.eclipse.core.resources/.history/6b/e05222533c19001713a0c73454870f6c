@@ -1,0 +1,13 @@
+from pandas_datareader import data
+import datetime as dt
+import pandas.io.data as web
+
+ticker = 'GLD'
+begdate = '2014-11-11'
+enddate = '2016-11-11'
+#data1 = data.DataReader(ticker,'yahoo',dt.datetime(2014,11,11),dt.datetime(2016,11,11))
+
+df = data.DataReader(XOM, "yahoo", dt.datetime(2014,11,11),dt.datetime(2016,11,11))
+
+print(data1)
+print(data1.head())

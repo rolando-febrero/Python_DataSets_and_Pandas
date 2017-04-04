@@ -1,0 +1,10 @@
+from pandas_datareader import data
+import datetime as dt
+
+ticker = 'GLD'
+start = dt.datetime(2010, 1, 1)
+end = dt.datetime(2015, 8, 22)
+data1 = data.DataReader("XOM",'yahoo',dt.datetime(2014,11,11),dt.datetime(2016,11,11))
+
+print(data1)
+print(data1.head())

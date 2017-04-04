@@ -1,0 +1,72 @@
+What is going on everyone, welcome to a Data Analysis with Python and Pandas tutorial series. 
+Pandas is a Python module, and Python is the programming language that we're going to use. 
+The Pandas module is a high performance, highly efficient, and high level data analysis library.
+
+At its core, it is very much like operating a headless version of a spreadsheet, like Excel. 
+Most of the datasets you work with will be what are called dataframes. You may be familiar with 
+this term already, it is used across other languages, but, if not, a dataframe is most often just 
+like a spreadsheet. Columns and rows, that's all there is to it! From here, we can utilize Pandas 
+to perform operations on our data sets at lightning speeds.
+
+Pandas is also compatible with many of the other data analysis libraries, like Scikit-Learn 
+for machine learning, Matplotlib for Graphing, NumPy, since it uses NumPy, and more. It's incredibly 
+powerful and valuable to know. If you're someone who finds themselves using Excel, or general spreadsheets, 
+for various computational tasks, where they might take a minute, or an hour, to run, Pandas is going to 
+change your life. I've even seen versions of Machine learning like K-Means clustering being done on Excel. 
+That's really cool, but my Python is going to do that for you way faster, which will also allow you to be a 
+bit more stringent on parameters, have larger datasets and just plain get more done.
+
+Another bit of good news? You can easily load in, and output out in the xls or xlsx format quickly, so, 
+even if your boss wants to view things the old way, they can. Pandas is also compatible with text files, 
+csv, hdf files, xml, html, and more with its incredibly powerful IO.
+
+If you're just now joining us with Python, you should be able to follow along without already having mastered 
+Python, and this could even be your intro to Python in general. Most importantly, if you have questions, ask 
+them! If you seek out answers for each of the areas of confusion, and do this for everything, eventually you 
+will have a full picture. Most of your questions will be Google-able as well. Don't be afraid to Google your 
+questions, it wont laugh at you, I promise. I still Google a lot of my goals to see if someone has some example 
+code doing what I want to do, so don't feel like a noob just because you do it.
+
+If I have not sold you yet on Pandas, the elevator pitch is: Lightning fast data analysis on spreadsheet-like 
+data, with an extremely robust input/output mechanism for handling multiple data types and even converting to 
+and from data types.
+
+Alright, you are sold. Now let's get Pandas! First, I am going to assume some people do not even have Python yet, 
+so head to Python.org, and download Python 3+, or later. Just don't get 2.X. Take note the bit-version that you 
+download. Just because your operating system is 64 bit, it doesn't mean that's your Python version. The default is 
+always 32bit. Choose what you want. 64 bit can be a bit of a headache, so I wouldn't recommend it if you're a newcomer. 
+If you want to do the 64 bit route, it might help to check out the pip install tutorial, which covers how to handle 
+regular installs as well as the more tricky 64 bit packages. If you're going with 32bit, then don't worry about that 
+tutorial for now.
+
+So you've got Python installed, and I will assume you all did 32bit. Next, go to your terminal or cmd.exe, and 
+type:pip install pandas. Did you get a "pip is not a recognized command" or something similar? No problem, 
+this means pip is not on your PATH. Pip is a program, but your machine doesn't just simply know where it is unless 
+it is on your PATH. You can look up how to add something to your path if you like, but you can always just explicitly 
+give the path to the program you want to execute. On Windows, for example, Python's pip is located in C:/Python34/Scripts/pip. 
+Python34 means Python 3.4. If you have Python 3.6, then you would use Python36, and so on.
+
+Thus, if regular pip install pandas didn't work, then you can do C:/Python34/Scripts/pip install pandas
+
+Now, it would probably be a bit of an oversight for me to not at least mention Anaconda here. Anaconda is 
+a scientific/data analysis distribution for Python and a bunch of popular data modules. So, I will at least note 
+that you can instead just install the Anaconda distribution. That said, Anaconda is not the catch-all people make 
+it out to be. There will be times when you want a package to work with Anaconda, but it's not playing nice. I still 
+personally prefer vanilla Python, and find pip install x to be the easiest, by far, way to get packages. On that note, 
+once oyu have Python and Pandas, where do we actually write code? Again, a lot of people are major fans of IPython Notebooks. 
+I am not, but I am still trying. I will eventually cover a series on IPython notebooks, because they are actually very 
+impressive and useful. I just don't like them personally.
+
+On that note, another major point of contention for people is the editor they choose. Trust me, the editor really does not 
+matter in the grand scheme of things. You should try multiple editors, and go with the one that suits you best. Whatever you 
+feel comfortable with, and you are productive with. That's what matters most in the end. Some employers are also going to force 
+you to use editor X Y or Z in the end as well, so you probably shouldn't become dependent on editor features. With that, I prefer 
+the simple IDLE, so that's what I will code in. Again though, you can code in Wing, emacs, Nano, Vim, PyCharm, Anaconda, IPython, 
+whatever you want. To open IDLE, just go to start, search for IDLE, and choose that. From there, File > New, and boom you have a 
+text editor with highlighting and a few other little things. We'll cover some of these minor things as we go.
+
+Now, with whatever editor you are using, open it up, and let's write some quick code to check out a dataframe.
+
+Generally, a DataFrame is closest to the Dictionary Python data structure. If you are not familiar with Dictionaries, there's a 
+tutorial for that. I'll annotate things like that in the video, as well as having links to them in the description and on the 
+text-based versions of the tutorials on PythonProgramming.net
